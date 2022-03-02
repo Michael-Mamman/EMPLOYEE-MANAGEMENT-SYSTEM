@@ -93,13 +93,13 @@ button {
    #PAGE WRAPPER
    ========================================================================== */
 .page-wrapper {
-  min-height: 100vh;
+  min-height: 200vh;
 }
 
 body {
   font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -119,7 +119,7 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h5 {
@@ -180,21 +180,6 @@ h6 {
   padding-top: 15px;
 }
 
-.p-t-10 {
-  padding-top: 10px;
-}
-
-.p-t-30 {
-  padding-top: 30px;
-}
-
-.p-b-100 {
-  padding-bottom: 100px;
-}
-
-.m-r-45 {
-  margin-right: 45px;
-}
 
 /* ==========================================================================
    #WRAPPER
@@ -250,8 +235,8 @@ h6 {
   border-radius: 20px;
 }
 
-.btn--green {
-  background: #57b846;
+.btn--white {
+  background: #ffffff;
 }
 
 .btn--green:hover {
@@ -609,6 +594,6 @@ input {
 
 @media (max-width: 767px) {
   .card-4 .card-body {
-    padding: 50px 40px;
+    padding: 70px 40px;
   }
 }
